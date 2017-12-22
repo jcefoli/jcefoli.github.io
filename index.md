@@ -15,3 +15,15 @@ It is very important to eat your own dogfood, try to break things before others 
 * [Keybase](https://keybase.io/jcefoli) - Public key and identity verification
 * [LinkedIn](https://www.linkedin.com/in/josephcefoli/)
 * [Twitter](https://twitter.com/jcefoli)
+
+## Payments
+Need to send me money? Here are all the ways you can pay me digitally:
+
+### PayPal
+[paypal.me/jcefoli](https://paypal.me/jcefoli)
+
+### Venmo
+`jcefoli`
+
+### Zelle / Chase QuickPay (If your bank supports Zelle, you can send me a payment via email)
+`jcefoli [at] gmail [dot] com`
