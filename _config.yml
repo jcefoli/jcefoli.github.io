@@ -15,3 +15,7 @@ twitter:
   username: jcefoli
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+paginate: 3
+paginate_path: "/blog/:num/"
