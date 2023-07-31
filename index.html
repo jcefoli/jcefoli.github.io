@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Joe Cefoli</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+    <script type="text/javascript">
+        function copyToClipboard(elementId) {
+          var clippy = document.createElement("input");
+          clippy.setAttribute("value", document.getElementById(elementId).innerHTML);
+          document.body.appendChild(clippy);
+          clippy.select();
+          document.execCommand("copy");
+          document.body.removeChild(clippy);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="profile">
+        <img id="userPhoto" src="assets/images/img.jpg" alt="Joe Cefoli">
+        <div id="headingBlock">
+            <h1>Joe Cefoli</h1>
+            <p>Girl Dad | Platform Engineer | Scripter of Things! | Green Energy Enthusiast <br />
+            <span class="preformatted">#! /usr/bin/env pwsh</span></p>
+            <span style="display: hidden;"><br /></span>
+            <span style="display: hidden;"><br /></span>
+        </div>
+    </div>
+
+    <div id="headingBlock"><h2><i class="fa-regular fa-thumbs-up"></i> Social</h2></div>
+    <div id="links">
+        <a class="link" href="https://instagram.com/jcefoli" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a class="link" href="https://www.threads.net/@jcefoli" target="_blank"><i class="fa-solid fa-hashtag"></i> Threads</a>
+        <a class="link" href="https://www.tiktok.com/@jcefoli" target="_blank"><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+        <a class="link" href="https://twitter.com/jcefoli" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
+        <span style="display: hidden;"><br /></span>
+    </div>
+
+    <div id="headingBlock"><h2><i class="fa-solid fa-code"></i></i> Code</h2></div>
+    <div id="links">
+        <a class="link" href="https://gist.github.com/jcefoli" target="_blank"><i class="fa-brands fa-github"></i> Gists</a>
+        <a class="link" href="https://github.com/jcefoli" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+        <a class="link" href="https://keybase.io/jcefoli/pgp_keys.asc?fingerprint=1eefb0d83f20f83b086b888cce344425e18c50b4" target="_blank"><i class="fa-solid fa-lock"></i></i> PGP Key</a>
+        <span style="display: hidden;"><br /></span>
+    </div>
+
+    <div id="headingBlock"><h2><i class="fa-solid fa-building"></i></i> Career</h2>
+        <p>Platform Engineer IV @ <a href="https://mindbodyonline.com">Mindbody</a></p>
+    </div>
+    <div id="links">
+        <a class="link" href="https://www.linkedin.com/in/josephcefoli/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a class="link" href="https://grnh.se/4c058fc76us" target="_blank"><i class="fa-regular fa-building"></i> We're hiring!</a>
+        <span style="display: hidden;"><br /></span>
+    </div>
+
+    <div id="headingBlock"><h2><i class="fa-solid fa-dollar-sign"></i> Send Me Money</h2></div>
+    <div id="links">
+        <span id="btcAddress" style="display: none;">3QswKhqmqjohjWtMyjna1nFh1xC72RB8fY</span>
+        <a class="link" href="#btcAddress" onclick="copyToClipboard('btcAddress')"> <i class="fa-brands fa-bitcoin"></i>&nbsp; Bitcoin<br>
+        <span style="font-size: 12pt;"> (tap to copy wallet address)</span></a>
+        <a class="link" href="https://paypal.me/jcefoli" target="_blank"><i class="fa-brands fa-paypal"></i> PayPal</a>
+        <a class="link" href="https://www.venmo.com/u/jcefoli" target="_blank"><i class="fa-solid fa-dollar-sign"></i> Venmo</a>
+        <span style="display: hidden;"><br /></span>
+    </div>
+
+    <div id="headingBlock">
+        <i class="fa-solid fa-hand-peace"></i>&nbsp;Peace <i class="fa-solid fa-peace"></i></p>
+    </div>
+</body>
+
+</html>
