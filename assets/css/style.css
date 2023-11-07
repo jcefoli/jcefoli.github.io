@@ -23,7 +23,7 @@ hr {
     border-radius: 50%;
 }
 
-#headingBlock {
+.headingBlock {
     color: #67D7A4;
     display: block;
     width: 100%;
@@ -31,24 +31,25 @@ hr {
     text-decoration: none;
 }
 
-#headingBlock a {
+.headingBlock a {
     color: #67D7A4;
 
 }
-#headingBlock p {
+.headingBlock p {
     color: #fff;
-
-    
+    font-weight: 300;
+    margin-top: 5px;
+    text-transform: none;
 }
 
-#headingBlock h1 {
+.headingBlock h1 {
     font-size: 2rem;
     font-weight: 300;
     letter-spacing: 0.2rem;
     margin: 0 auto;
 }
 
-#headingBlock h2 {
+.headingBlock h2 {
     border-top: 120px;
     font-size: 1.6rem;
     font-weight: 200;
@@ -56,11 +57,6 @@ hr {
     margin: 0 auto;
 }
 
-#headingBlock p {
-    font-weight: 300;
-    margin-top: 5px;
-    text-transform: none;
-}
 
 i.fa {
     margin-right: 0.3rem;
