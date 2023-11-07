@@ -62,7 +62,7 @@ i.fa {
     margin-right: 0.3rem;
 }
 
-#links {
+.links {
     max-width: 500px;
     width: auto;
     display: block;
